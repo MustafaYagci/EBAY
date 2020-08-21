@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: user should be able to see the modules
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.34 s - in user should be able to see the modules

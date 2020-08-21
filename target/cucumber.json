@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-21T13:03:13.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7981079700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.stepDefs.Hooks.Before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user should be able to see the modules",
+        "description": "",
+        "id": "user-should-be-able-to-see-the-modules;user-should-be-able-to-see-the-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2045345500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should verify page title is \"Comprar y Vender Electrónica, Moda, Móviles y mucho más | eBay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Comprar y Vender Electrónica, Moda, Móviles y mucho más | eBay\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.ebay.stepDefs.searchItemStepDefs.user_should_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333177000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to see the following modules",
+            "match": {
+              "location": "com.ebay.stepDefs.modulesStepDefs.user_should_be_able_to_see_the_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Portada"
+                ]
+              },
+              {
+                "cells": [
+                  "Favoritos"
+                ]
+              },
+              {
+                "cells": [
+                  "Electrónica"
+                ]
+              },
+              {
+                "cells": [
+                  "Casa y Jardín"
+                ]
+              },
+              {
+                "cells": [
+                  "Moda"
+                ]
+              },
+              {
+                "cells": [
+                  "Motor"
+                ]
+              },
+              {
+                "cells": [
+                  "Deportes"
+                ]
+              },
+              {
+                "cells": [
+                  "Ocio"
+                ]
+              },
+              {
+                "cells": [
+                  "Arte y coleccionismo"
+                ]
+              },
+              {
+                "cells": [
+                  "PyME"
+                ]
+              },
+              {
+                "cells": [
+                  "eBay Solidario"
+                ]
+              },
+              {
+                "cells": [
+                  "Ofertas de eBay"
+                ]
+              },
+              {
+                "cells": [
+                  "Por menos de 10€"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@modules"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "user should be able to see the modules",
+    "description": "",
+    "id": "user-should-be-able-to-see-the-modules",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/modules.feature",
+    "tags": []
+  }
+]
